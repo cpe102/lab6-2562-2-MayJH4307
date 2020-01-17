@@ -5,7 +5,7 @@ char before(char x){
 	//Write your function definition here
 	char y ;
 	if(x>='A' && x<='Z'){
-		if(x == 65){
+		if(x == 'A'){
 			y = 'Z';
 		}else{
 			y  = x - 1;
